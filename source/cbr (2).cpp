@@ -1,8 +1,7 @@
 #include"mex.h"
-#include<cstdlib>
-#include<cmath>
+#include<stdlib.h>
+#include<math.h>
 #include"matrix.h"
-#include"head1.h"
 void cbr(point &point,int winLen,int nchar,double *str)
 //map an string to a series of points
 {

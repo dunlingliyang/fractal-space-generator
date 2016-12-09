@@ -3,7 +3,7 @@ clear; close all;
 load ./datasets/promoters.mat;
 addpath('./svm');
 data_len = size(data,1);
-rng(5);
+rand('seed',5); % change to rng(5); for later Matlab
 cs_perm = 5;
 ntimes = 50;
 saveAcc = zeros(5*ntimes,3);
@@ -33,6 +33,5 @@ end
 
 fprintf('The maxacc is %f, and the parameters is %f and %f\n', maximum_accuracy,c1,kp);
 disp('++++++++++++++++++++++++++++++++++++++++');
-
 
 
