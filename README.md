@@ -9,16 +9,13 @@ This folder also contains a copy of Support Vector Machine for usage in the clas
 ## COMPILE
 The main procedure of mapping function is carried out in the mex file `cbr.cpp`. To compile it under different platform, run:
 
-```
-mex -v cbr.cpp 
-```
 An cbr.wexw64 has been included for platform Window x64. 
 
 ## NOTICE
-This copy of code comes as it is. Any comments or suggestions are welcome. 
+Due to a disk disaster, the original head files for `cbr.cpp` were lost. I implements the `cbr.cpp` in Matlab which does sacrifice the efficiency for readability. The files contained in the `source` folder are obsolete files for `cbr` for anyone who are interested in peering into the details and also for me to deposit them in a safer place. 
 
 ##CONTACT
-Any questions or comments, please drop me a line (csly#mail.ustc.edu.cn, replace # with @).
+This copy of code comes as it is. Any comments or suggestions are welcome. (csly#mail.ustc.edu.cn, replace # with @).
 
 ##LICENSE
 This code files are distributed under [GNU General Public License.](https://www.gnu.org/copyleft/gpl.html)

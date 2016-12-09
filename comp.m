@@ -20,6 +20,7 @@ if nargin < 4
     distanceType = 'plain';
 end
 % get cbr points in fractal space
+% if in linux, change cbr to mat_cbr
 [trai_data1,label1] = cbr(winLength,contr_coef,ndim, inputStr1{2});
 [trai_data2,label2] = cbr(winLength,contr_coef,ndim, inputStr2{2});
 
